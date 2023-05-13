@@ -1,0 +1,62 @@
+@font-face {
+    font-family: myFont;
+    src:url(clock.ttf);
+}
+
+
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: #EEEEEE;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.increment {
+    display: flex;
+    justify-content: space-evenly;
+}
+button {
+    background: none;
+    color: #9AABD8;
+    border: solid 1px;
+    padding: 4px;
+    border-radius: 5px;
+    font-family: myFont;
+}
+
+h3 {
+    text-align: center;
+}
+.title {
+     font-family: 'Roboto', sans-serif;
+     font-size: 30px;
+     margin-bottom: -1px;
+}
+
+#countHome {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background: black;
+    font-size: 90px;
+    border-radius: 15px;
+    color: #F94F6D;
+    font-family: myFont;
+}
+
+#countGuest {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background: black;
+    font-size: 90px;
+    border-radius: 15px;
+    color: #F94F6D;
+     font-family: myFont;
+}
+
